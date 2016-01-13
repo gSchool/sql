@@ -3,7 +3,7 @@
 ### Install postgres : 
 -brew install postgres
 
--Heed the post-install notes. There may be something like: 
+-Heed the post-install notes. In most cases , it will tell you to do a series of steps like this: 
   "To have launchd start postgresql at login:"
   <blockquote>
         ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
