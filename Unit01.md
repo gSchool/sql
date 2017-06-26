@@ -87,7 +87,7 @@ Even though we don't want to drop the database yet, later we can drop it with th
 DROP DATABASE demodb1;
 
 
-## Importing a Database
+# Importing THE WORLD DATABASE
 
 To exit the postgres cli ( command line interface) , do
 \q
