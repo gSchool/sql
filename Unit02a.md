@@ -12,7 +12,7 @@ When finished, submit a pull request.
 * select and display just the name of every animal   
 * write a query that updates the name of "Smokey" to "Smokey the Bear"
 * write a query that updates the name of "Fozzie" to "Fozzie the Bear"
-* insert a new animal named Marlin with a species id that correspond to "fish".
+* insert a new animal named Marlin with a species id that corresponds to "fish".
 
 
 USE JOINS TO ACHIEVE THE FOLLOWING :
