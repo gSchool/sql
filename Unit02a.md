@@ -3,16 +3,22 @@
 Instructions:
 For each written part of this assignment, write the query underneath the line
 
-When finished, submit a pull request. 
+When finished, submit a pull request.
 
 * create a new database and name is it zoo
+- createdb zoo
 * import zoo.sql into that new database
+- psql zoo < zoo.sql
 * using sql, write a query that selects all animals
-* select and display just the name of every animal   
+- SELECT * FROM animals;
+* select and display just the name of every animal
+- SELECT animals.name FROM animals;   
 * write a query that updates the name of "Smokey" to "Smokey the Bear"
+- UPDATE animals SET name = 'Smokey the Bear' WHERE animals.name = 'Smokey';
 * write a query that updates the name of "Fozzie" to "Fozzie the Bear"
+- UPDATE animals SET name = 'Fozzie the Bear' WHERE animals.name = 'Fozzy';
 * insert a new animal named Marlin with a species id that correspond to "fish".
-
+- INSERT INTO animals(name, species_id) VALUES ('Marlin', '4');
 
 USE JOINS TO ACHIEVE THE FOLLOWING :
 
