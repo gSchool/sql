@@ -2,6 +2,7 @@
 
 Instructions:
 For each written part of this assignment, write the query underneath the line
+## PLEASE ALSO DO THESE EXERCISES ON YOUR MACHINE. 
 
 When finished, submit a pull request. 
 
