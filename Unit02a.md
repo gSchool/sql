@@ -33,9 +33,9 @@ USE JOINS TO ACHIEVE THE FOLLOWING :
 USE AN AGGREGATE QUERIES TO ACHIEVE THE FOLLOWING:
 
 * write a query tells us the average trainer level of all of the trainers
-
+- SELECT AVG(trainer_level) FROM trainers;
 * write a query that tells us the name of the trainer with the highest level
-
+- SELECT trainers.trainer_name from trainers WHERE trainer_level= (select max(trainer_level) from trainers);
 CONSTRUCT THE FOLLOWING:
 
 * build a new table called "days of the week ", numbered 0 - 6 from Sunday to Saturday
