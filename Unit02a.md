@@ -23,6 +23,7 @@ When finished, submit a pull request.
 USE JOINS TO ACHIEVE THE FOLLOWING :
 
 * write a query that outputs all animals and their species name
+- SELECT * FROM species join animals on (animals.species_id = species.id);
 * write a query that outputs all of the fish ( must use a join )
 * write a query that outputs all of the lions
 * write a query that outputs all of the animals that are a mouse or a bear (you may need to think and discuss how to do this)
@@ -30,6 +31,7 @@ USE JOINS TO ACHIEVE THE FOLLOWING :
 USE AN AGGREGATE QUERIES TO ACHIEVE THE FOLLOWING:
 
 * write a query tells us the average trainer level of all of the trainers
+
 * write a query that tells us the name of the trainer with the highest level
 
 CONSTRUCT THE FOLLOWING:
