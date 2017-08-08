@@ -6,7 +6,7 @@ For each written part of this assignment, write the query underneath the line
 
 When finished, submit a pull request. 
 
-* create a new database and name is it zoo
+* create a new database and name it zoo
 * import zoo.sql into that new database
 * using sql, write a query that selects all animals
 * select and display just the name of every animal   
