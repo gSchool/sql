@@ -29,7 +29,7 @@ USE JOINS TO ACHIEVE THE FOLLOWING :
 * write a query that outputs all of the lions
 - SELECT animals.name FROM species join animals on (animals.species_id = species.id) WHERE species.name LIKE 'lion';
 * write a query that outputs all of the animals that are a mouse or a bear (you may need to think and discuss how to do this)
-
+- SELECT animals.name FROM species join animals on (animals.species_id = species.id) WHERE species.name= 'bear' OR species.name= 'mouse';
 USE AN AGGREGATE QUERIES TO ACHIEVE THE FOLLOWING:
 
 * write a query tells us the average trainer level of all of the trainers
